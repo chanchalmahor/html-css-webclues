@@ -1,0 +1,380 @@
+body {
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.top-header {
+  padding: 10px;
+  border-bottom: 0.5px solid black;
+}
+
+.top-header-content,
+.main-header-content,
+.navbar-content,
+.hero-section-content,
+.about-section-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-header {
+  padding: 10px;
+  border-bottom: 0.5px solid black;
+  font-weight: bold;
+}
+
+.main-header-content .get-quote-btn {
+  border-radius: 99px;
+  padding: 8px 16px;
+  border: none;
+  background: coral;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 10px;
+  border-bottom: 0.5px solid black;
+  background: coral;
+}
+
+.navbar a {
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.hero-section {
+ background-image: url(../images/bg-img-1.avif);
+ background-size:cover ;
+ background-position: center;
+ background-repeat: no-repeat;
+  height: 500px;
+  color: white;
+}
+
+.hero-section-table, .hero-section-heading{
+  margin-top: 70px;
+}
+
+.hero-section-heading{
+  font-size: 50px;
+  margin-right: 200px;
+}
+
+.hero-section-heading span{
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.hero-section-table{
+  font-size: 30px;
+  flex: 1;
+}
+
+table .tb-row{
+  margin-bottom: 50px;
+}
+.about-section {
+  background: #f6f6f6;
+  height: 650px;
+  padding-top: 10px;
+}
+
+.about-content h2 {
+  color: purple;
+  text-align: center;
+  padding: 50px;
+}
+
+.about-section p {
+  text-align: justify;
+  padding: 20px;
+  font-weight: 400;
+}
+
+.about-img img {
+  margin-left: 20px;
+  height: 450px;
+}
+
+.related-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.related-data {
+  height: 1000px;
+  background: #ececec;
+  padding: 10px;
+}
+
+.related-data h2 {
+  text-align: center;
+  color: purple;
+  padding: 40px 0px 10px 0px;
+}
+
+.related-data p {
+  text-align: center;
+}
+
+.related-section .related-box {
+  border: 1px solid #d1cfcf;
+  /* margin-left: 10px; */
+  /* height: 300px; */
+  width: 300px;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.related-section .related-box p {
+  text-align: justify;
+}
+
+.Marketing,
+.Marketing-content {
+  display: flex;
+  justify-content: space-between;
+}
+.Marketing {
+  height: 650px;
+}
+
+.Marketing-bg-img {
+  background-image: url(../images/Marketing-img.jpg);
+  /* height: 500px; */
+  margin-right: 30px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Marketing-section .Marketing-section-h2 {
+  margin: 40px 0px 40px 0px;
+}
+
+.Marketing-section .container-box {
+  margin-top: 60px;
+}
+
+.Marketing-content-box {
+  /* height: 150px; */
+  padding: 10px;
+  flex: 1;
+}
+
+.Marketing-section h2 {
+  /* text-align: center; */
+  color: purple;
+}
+
+.Marketing-section p {
+  text-align: justify;
+}
+
+.Marketing-bg-img-content {
+  margin: 100px 100px 100px 10px;
+  color: whitesmoke;
+}
+
+.Marketing-bg-img-content h1 {
+  font-size: 40px;
+}
+
+.Marketing-content .box-1 {
+  border-bottom: 0.25px solid #d1cfcf;
+  border-right: 0.25px solid #d1cfcf;
+}
+
+.Marketing-content .box-2 {
+  border-bottom: 0.25px solid #d1cfcf;
+  border-right: 0.25px solid #d1cfcf;
+}
+
+.Marketing-content .box-3 {
+  border-bottom: 0.25px solid #d1cfcf;
+}
+
+.Marketing-content .box-4,
+.box-5 {
+  border-right: 0.25px solid #d1cfcf;
+  border-right: 0.25px solid #d1cfcf;
+}
+
+.Marketing-content-box .get-quote-btn {
+  border-radius: 99px;
+  padding: 20px 40px;
+  border: none;
+  background: coral;
+  color: white;
+  font-weight: bold;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+
+.Excel {
+  height: 300px;
+  background: #7a91b1;
+  padding: 10px;
+}
+
+.Excel .Excel-data {
+  text-align: center;
+  color: whitesmoke;
+  margin: 50px;
+  font-weight: bold;
+}
+
+.Excel .Excel-section .Excel-content {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.Excel-content .Excel-content-box {
+  flex: 1;
+  color: #022d62;
+  font-weight: bold;
+  padding: 30px;
+  background: white;
+}
+
+.Excel-content .box-1 {
+  border: 0.25 solid black;
+}
+
+.Design {
+  margin-top: 250px;
+  height: 750px;
+  background-image: url(../images/bg-img3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  text-align: justify;
+}
+
+.Design .Design-data {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.Design span {
+  color: coral;
+}
+
+.Design-section {
+  margin-top: 60px;
+}
+
+.Design-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Design-content-box {
+  padding: 40px;
+  margin: 20px;
+  border: 5px solid #d1cfcf;
+  border-radius: 20px;
+  background: white;
+  text-align: center;
+}
+
+.footer-nav {
+  height: 250px;
+  background-color: #7a91b1;
+  padding: 10px;
+}
+
+.footer-nav-content {
+  display: flex;
+  justify-content: center;
+  /* max-width: 20px; */
+}
+
+.footer-nav-section {
+  text-align: center;
+}
+
+.footer-nav-section h2 {
+  color: purple;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.footer-nav-section h2 span {
+  font-weight: bolder;
+}
+
+.footer-nav-section p {
+  color: white;
+}
+
+.footer-input {
+  margin-top: 40px;
+}
+
+.footer-input input {
+  width: 520px;
+  height: 35px;
+  padding: 4px;
+  background: #d1cfcf;
+  border: none;
+}
+
+.footer-input button {
+  border-top-right-radius: 99px;
+  border-bottom-right-radius: 99px;
+  padding: 14px 30px;
+  border: none;
+  background: coral;
+  color: white;
+  font-weight: bolder;
+}
+
+.clients-success-stories{
+  height: 350px;
+}
+
+.client-content{
+  margin-left: 750px;
+}
+
+.client-section-data {
+  display: flex;
+  justify-content: space-between;
+  text-align: center  ;
+}
+
+.trusted-companies{
+  /* height: 200px; */
+  background:#d1cfcf;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+.trusted-companies .heading{
+ color:purple;
+ margin-bottom: 50px;
+}
+
+.Client-section-data{
+  margin-top: 40px;
+  border-top: 1px solid black;
+  padding-top: 20px;
+}
